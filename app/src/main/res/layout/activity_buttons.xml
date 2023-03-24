@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC44D"
+    android:gravity="center"
+    tools:context=".Buttons"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="150dp">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="54dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/gau" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gauranga Restaurant"
+            android:textSize="35dp"
+            android:textStyle="italic|bold" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp">
+
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/desserts"
+         android:text="Desserts"
+         android:backgroundTint="#E69558"
+         android:textStyle="bold|italic"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/biryani"
+        android:text="Biryanis"
+        android:backgroundTint="#E69558"
+        android:textStyle="bold|italic"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/curries"
+        android:text="Curries"
+        android:backgroundTint="#E69558"
+        android:textStyle="bold|italic"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/icecream"
+        android:text="Icecream"
+        android:backgroundTint="#E69558"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Salade"
+        android:text="salads"
+        android:backgroundTint="#E69558"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/juice"
+        android:text="Juices"
+        android:backgroundTint="#E69558"
+        android:textStyle="bold|italic"
+        />
+
+
+        <Button
+            android:id="@+id/chats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E69558"
+            android:text="Chat"
+            android:textStyle="bold|italic" />
+
+         <Button
+            android:id="@+id/chinese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E69558"
+            android:text="Chinese"
+            android:textStyle="bold|italic" />
+       <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/tc"
+         android:text="Tea"
+         android:backgroundTint="#E69558"
+         android:textStyle="bold|italic"
+        />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/next"
+        android:text="Next"
+        android:backgroundTint="#E69558"
+        android:textStyle="bold|italic"
+        />
+
+
+
+
+
+</LinearLayout>
